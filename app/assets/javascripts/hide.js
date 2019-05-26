@@ -1,6 +1,4 @@
-function hideWhenClicked(event) {
-  let target = event.target
-  return target.hide
+function hideWhenClicked() {
+  let el = document.getElementById('hide_this');
+  el.style.display = 'none';
 }
-
-('#hide_this').click(hideWhenClicked)
