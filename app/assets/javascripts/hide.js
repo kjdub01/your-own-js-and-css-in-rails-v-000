@@ -1,4 +1,4 @@
 function hideWhenClicked(event) {
   let target = event.target
-  return 
+  return target.hide
 }
