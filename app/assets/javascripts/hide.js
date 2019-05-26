@@ -1,5 +1,4 @@
 function hideWhenClicked() {
-  var el;
-  el = document.getElementById('hide_this');
-  el.style.display = 'none';
+  var doc =  document.getElementById("hide_this");
+  doc.style.visibility = "hidden";
 }
