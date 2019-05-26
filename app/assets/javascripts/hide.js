@@ -3,4 +3,4 @@ function hideWhenClicked(event) {
   return target.hide
 }
 
-#hide_this.clicked(hideWhenClicked)
+#'hide_this'.clicked(hideWhenClicked)
